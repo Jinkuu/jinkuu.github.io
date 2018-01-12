@@ -12,19 +12,37 @@
       color: #444;
     }
     .full-hero {
-      background-color: #c7dbfc;
-      width: 50vw;
-      height: 50vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #07295f;
+      height: 100vh;
+      text-align: center;
     }
+
+    .full-hero h1 {
+      color: #fff;
+    }
+
     .bio-wrapper {
-      font-size: 48px;
+      font-size: px;
       max-width: 960px;
     }
+
+    .bio-wrapper:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;      
+    }
     .bio-box {
-      width: 65%;
+      width: 25%;
+      float: right;
       border: 1px solid black;
       font-size: 1.5rem;
-      padding: 10px;
+      padding: 2%;
       margin: 10px;
     }
     .bio-box h3 {
@@ -35,6 +53,9 @@
     }
     h1 {
       margin-top: 0;
+    }
+    footer {
+      padding: 10px;
     }
   </style>
 </head>
@@ -47,23 +68,27 @@
     <div class="bio-box">
       <div class="bio-copy">
         <h3>Maya</h3>
-        <p>Sample content goes here.</p>
+        <p>Spicy jalapeno sint short ribs chuck filet mignon id tongue. Turducken consectetur aute bresaola anim. Consequat doner hamburger laborum. Turkey salami hamburger, leberkas officia tenderloin ball tip picanha t-bone exercitation nostrud fugiat pancetta shankle swine. Ullamco tongue culpa, enim adipisicing turducken cow elit ribeye ut pork chop occaecat rump. Aliquip tempor in cow et incididunt officia ex flank doner.</p>
       </div>
     </div>
     <div class="bio-box">
       <div class="bio-copy">
         <h3>Vicky</h3>
-        <p>Sample content goes here.</p>
+        <p>Nulla non turducken pork aliquip alcatra sint pork belly brisket ea. Tenderloin ground round excepteur id, mollit eiusmod swine. Boudin pork belly brisket pork do corned beef frankfurter buffalo. Meatball dolore cillum picanha, venison filet mignon deserunt laboris ribeye pork chop. Ut sed tongue, ut pastrami aute veniam in meatloaf meatball. Beef ribs exercitation irure eiusmod reprehenderit est cupim short loin alcatra ham hock tail magna fatback.</p>
       </div>
     </div>
     <div class="bio-box">
       <div class="bio-copy">
         <h3>Angelica</h3>
-        <p>Sample content goes here.</p>
+        <p>Velit enim porchetta ad incididunt pariatur beef ribs in. Tenderloin consequat eiusmod esse bresaola t-bone do est magna in meatball swine laboris turducken lorem. Proident ullamco kielbasa, et alcatra leberkas aliquip porchetta. Corned beef quis ea, jerky lorem sirloin in aliqua cow pastrami do tenderloin adipisicing fugiat occaecat.
+
+          Lorem tri-tip sirloin, venison shank deserunt cupim pastrami kielbasa dolore kevin anim esse meatball. Venison ea pork mollit ham hock cillum non porchetta sirloin. In tempor sint id. Sirloin eu biltong, landjaeger in doner chicken ullamco incididunt beef ribs dolor strip steak veniam.</p>
       </div>
     </div>
-  </div>
-
+  </div><!-- end of wrapper -->
+  <footer>
+    <p>The quick brown fox jumps over the lazy dog.</p>
+  </footer>
 </body>
 
 </html>
